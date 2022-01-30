@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(110, 90, 71);
+}
+
+.container {
+  background-color: #c4834e42;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  display: flex; 
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contentLeft {
+  width: 350px;
+}
+.contentRight {
+  width: 350px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 0;
+}
+
+.layoutImg {
+  width: 290px;
+  height: 290px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+}
+
+.layoutImg img {
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-55%, -40%);
+}
+
+.myExperience {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-right: none;
+  border-bottom: none;
+  border-radius: 1px;
+  padding: 50px;
+  width: 350px;
+}
+
+#propsTopRight {
+  width: 340px;
+  height: 550px;
+  background-color: #e2a16c;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 20px;
+}
+#propsBottomLeft {
+  width: 50px;
+  height: 400px;
+  background-color: #ffcda4;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 20px;
+}
+
+.myName h1 {
+  letter-spacing: 20px;
+  font-size: 2.6rem;
+  font-weight: 900;
+}
+
+.myName :nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.myName :last-child {
+  margin-bottom: 80px;
+}
+
+.myName h4 {
+  letter-spacing: 10px;
+}
+
+.myContact i {
+  margin-right: 42px;
+}
+
+.myContact {
+  margin-bottom: 40px;
+}
